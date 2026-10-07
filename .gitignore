@@ -1,0 +1,22 @@
+# Private interview prep - never publish
+ADDITION_FILE.md
+
+# Data (download separately - see data/README.md)
+data/*
+!data/README.md
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated tables (large, fully regenerable from src/) - figures ARE committed
+outputs/tables/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
